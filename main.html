@@ -14,34 +14,86 @@
     <title>Hobby Website</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header-wrap">
-        <img src="./JPG/palms.png" alt="logo" width="80px" />
-        <h1>Children love to play</h1>
-      </div>
+    <div class="container">
+      <header class="header">
+        <img
+          class="header-logo"
+          src="./images/palms.png"
+          alt="logo"
+          width="80px"
+          height="80px"
+        />
+        <div class="header-wrap">
+          <h1 class="header-title">Children love to play</h1>
+          <nav class="header-nav">
+            <ul class="header-nav-list list">
+              <li>
+                <a class="header-nav-about link" href="./main.html">About</a>
+              </li>
+              <li>
+                <a class="header-nav-quiz link" href="/pages/quiz.html">Quiz</a>
+              </li>
+              <li>
+                <a class="header-nav-outdoor link" href="/pages/outdoor.html"
+                  >Outdoor games</a
+                >
+              </li>
+              <li>
+                <a class="header-nav-indoor link" href="/pages/outdoor.html"
+                  >Indoor games</a
+                >
+              </li>
+              <li>
+                <a class="header-nav-quest link" href="./pages/quest.html"
+                  >Quest</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li>
-            <a href="">Puzzles</a>
-          </li>
-          <li>
-            <a href="">Outdoor games</a>
-          </li>
-          <li>
-            <a href="">Indoor games</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
       <section class="hero">
+        <img class="hero-img" src="./images/hero.jpg" alt="kids are playing" />
         <p>
           Hi! Nice to meet you on my website. It's created to help parents and
-          carers to spend interesting and fun time with children.
+          carers to spend interesting and fun time with children
         </p>
       </section>
-    </main>
-    <footer></footer>
+      <aside class="sidebar">
+        <h2>Children's age</h2>
+        <ul class="list">
+          <li><button type="button">4-5 years</button></li>
+          <li><button type="button">6-8 years</button></li>
+          <li><button type="button">9-12 years</button></li>
+        </ul>
+      </aside>
+      <footer class="footer">
+        <ul>
+          <p>Contact us</p>
+          <li class="team-social-item">
+            <a href="" class="team-social-link link">
+              <svg class="team-social-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-social-item">
+            <a href="" class="team-social-link link">
+              <svg class="team-social-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-social-item">
+            <a href="" class="team-social-link link">
+              <svg class="team-social-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
