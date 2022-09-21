@@ -1,0 +1,19 @@
+body {
+  font-family: "Comic Neue", sans-serif;
+}
+h1 {
+  font-weight: 700;
+}
+.header-wrap {
+  display: flex;
+}
+.hero {
+  background-image: url(../JPG/hero.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 60vh;
+}
+.header-nav-list {
+  display: flex;
+}
