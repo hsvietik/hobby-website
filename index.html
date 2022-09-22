@@ -40,6 +40,11 @@
                 <a class="header-nav-quiz link" href="/pages/quiz.html">Quiz</a>
               </li>
               <li>
+                <a class="header-nav-quest link" href="./pages/quest.html"
+                  >Quest</a
+                >
+              </li>
+              <li>
                 <a class="header-nav-outdoor link" href="/pages/outdoor.html"
                   >Outdoor games</a
                 >
@@ -49,88 +54,91 @@
                   >Indoor games</a
                 >
               </li>
-              <li>
-                <a class="header-nav-quest link" href="./pages/quest.html"
-                  >Quest</a
-                >
-              </li>
             </ul>
           </nav>
         </div>
       </header>
 
-      <section class="hero">
-        <!-- <img class="hero-img" src="./images/hero.jpg" alt="kids are playing" /> -->
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-              <img
-                src="./images/indoor-cube.jpg"
-                class="d-block w-100"
-                alt="kids playing cubes"
-              />
+      <div class="hero-wrap">
+        <section class="hero col-10">
+          <!-- <img class="hero-img" src="./images/hero.jpg" alt="kids are playing" /> -->
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img
+                  src="./images/indoor-cube.jpg"
+                  class="d-block w-100"
+                  alt="kids playing cubes"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="./images/indoor.jpg"
+                  class="d-block w-100"
+                  alt="kids playing indoor game"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="./images/outdoor-playground.jpg"
+                  class="d-block w-100"
+                  alt="kids playing in playground"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="./images/outdoor.jpg"
+                  class="d-block w-100"
+                  alt="kids playing outdoor"
+                />
+              </div>
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img
-                src="./images/indoor.jpg"
-                class="d-block w-100"
-                alt="kids playing indoor game"
-              />
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img
-                src="./images/outdoor-playground.jpg"
-                class="d-block w-100"
-                alt="kids playing in playground"
-              />
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img
-                src="./images/outdoor.jpg"
-                class="d-block w-100"
-                alt="kids playing outdoor"
-              />
-            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        <p>
-          Hi! Nice to meet you on my website. It's created to help parents and
-          carers to spend interesting and fun time with children
-        </p>
-      </section>
-      <aside class="sidebar">
-        <h2>Children's age</h2>
-        <ul class="list">
-          <li><button type="button">4-5 years</button></li>
-          <li><button type="button">6-8 years</button></li>
-          <li><button type="button">9-12 years</button></li>
-        </ul>
-      </aside>
+          <p>
+            Hi! Nice to meet you on my website. It's created to help parents and
+            carers to spend interesting and fun time with children
+          </p>
+        </section>
+        <aside class="sidebar col-2">
+          <h2 class="sidebar-title">Choose children's age</h2>
+          <ul class="list">
+            <li><button type="button">4-5 years</button></li>
+            <li><button type="button">6-8 years</button></li>
+            <li><button type="button">9-12 years</button></li>
+          </ul>
+        </aside>
+      </div>
       <footer class="footer">
-        <ul>
-          <p>Contact us</p>
+        <p class="footer-text">Contact us</p>
+        <ul class="list">
           <li class="team-social-item">
             <a href="" class="team-social-link link">
               <svg class="team-social-icon" width="20" height="20">
