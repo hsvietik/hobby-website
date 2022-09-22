@@ -95,15 +95,13 @@ p {
 .social-item.phone {
   background-color: #bb33aa;
 }
-
-/* .hero-wrap {
-  display: flex;
-  flex-direction: row-reverse;
-} */
 .hero {
   margin: 5px;
 }
-
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+}
 .hero-text {
   padding: 5px 10px;
   font-size: 16px;
@@ -169,4 +167,42 @@ p {
   width: 25px;
   height: 25px;
   border-radius: 50%;
+}
+@media screen and (min-width: 480px) {
+  .hero-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .sidebar {
+    width: 25vw;
+  }
+  .hero {
+    width: 70vw;
+  }
+  .sidebar-list {
+    flex-direction: column;
+  }
+  .sidebar-title {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 60vw;
+  }
+  .hero-text,
+  .hero-description {
+    font-size: 16px;
+  }
+  .sidebar {
+    width: 20vw;
+  }
+  .header-nav-item {
+    width: 100px;
+  }
+  .social-item {
+    width: 40px;
+    height: 40px;
+  }
 }
