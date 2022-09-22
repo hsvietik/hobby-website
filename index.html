@@ -33,26 +33,22 @@
           <h1 class="header-title">Children love to play</h1>
           <nav class="header-nav">
             <ul class="header-nav-list list">
-              <li>
-                <a class="header-nav-about link" href="./main.html">About</a>
+              <li class="header-nav-item about">
+                <a class="link" href="./main.html">About</a>
               </li>
-              <li>
+              <li class="header-nav-item quiz">
                 <a class="header-nav-quiz link" href="/pages/quiz.html">Quiz</a>
               </li>
-              <li>
-                <a class="header-nav-quest link" href="./pages/quest.html"
+              <li class="header-nav-item quest">
+                <a class="header-nav-quest link" href="/pages/quest.html"
                   >Quest</a
                 >
               </li>
-              <li>
-                <a class="header-nav-outdoor link" href="/pages/outdoor.html"
-                  >Outdoor games</a
-                >
+              <li class="header-nav-item outdoor">
+                <a class="link" href="/pages/outdoor.html">Outdoor games</a>
               </li>
-              <li>
-                <a class="header-nav-indoor link" href="/pages/outdoor.html"
-                  >Indoor games</a
-                >
+              <li class="header-nav-item indoor">
+                <a class="link" href="/pages/outdoor.html">Indoor games</a>
               </li>
             </ul>
           </nav>
@@ -60,8 +56,7 @@
       </header>
 
       <div class="hero-wrap">
-        <section class="hero col-10">
-          <!-- <img class="hero-img" src="./images/hero.jpg" alt="kids are playing" /> -->
+        <section class="hero">
           <div
             id="carouselExampleControls"
             class="carousel slide"
@@ -122,41 +117,76 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          <p>
+          <p class="hero-text">
             Hi! Nice to meet you on my website. It's created to help parents and
             carers to spend interesting and fun time with children
           </p>
         </section>
-        <aside class="sidebar col-2">
+        <aside class="sidebar">
           <h2 class="sidebar-title">Choose children's age</h2>
           <ul class="list">
-            <li><button type="button">4-5 years</button></li>
-            <li><button type="button">6-8 years</button></li>
-            <li><button type="button">9-12 years</button></li>
+            <li class="sidebar-item">
+              <button class="button" type="button">4-5 years</button>
+            </li>
+            <li class="sidebar-item">
+              <button class="button" type="button">6-8 years</button>
+            </li>
+            <li class="sidebar-item">
+              <button class="button" type="button">9-12 years</button>
+            </li>
           </ul>
         </aside>
       </div>
       <footer class="footer">
         <p class="footer-text">Contact us</p>
-        <ul class="list">
-          <li class="team-social-item">
-            <a href="" class="team-social-link link">
-              <svg class="team-social-icon" width="20" height="20">
+        <ul class="social-list list">
+          <li class="social-item intagram">
+            <a
+              href="https://www.instagram.com/anna.svetik/"
+              class="social-link link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="social-icon" width="15" height="15">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
-          <li class="team-social-item">
-            <a href="" class="team-social-link link">
-              <svg class="team-social-icon" width="20" height="20">
+          <li class="social-item facebook">
+            <a
+              href="https://www.facebook.com/annet.svetik"
+              class="social-link link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="social-icon" width="15" height="15">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
-          <li class="team-social-item">
-            <a href="" class="team-social-link link">
-              <svg class="team-social-icon" width="20" height="20">
+          <li class="social-item linkedin">
+            <a
+              href="https://www.linkedin.com/in/hanna-svietik-523371182/"
+              class="social-link link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="social-icon" width="15" height="15">
                 <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item email">
+            <a href="mailto:hsvietik@gmail.com" class="social-link link">
+              <svg class="social-icon" width="15" height="15">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item phone">
+            <a href="tel:+447877851623" class="social-link link">
+              <svg class="social-icon" width="15" height="15">
+                <use href="./images/icons.svg#icon-phone-form"></use>
               </svg>
             </a>
           </li>
