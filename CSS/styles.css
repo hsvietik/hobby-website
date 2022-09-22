@@ -1,5 +1,6 @@
 body {
   font-family: "Comic Neue", sans-serif;
+  font-size: 14px;
   margin: 0;
   width: 100vp;
 }
@@ -53,7 +54,7 @@ p {
 }
 .header-title {
   margin: 5px auto 5px auto;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 .header-nav-list {
@@ -64,7 +65,6 @@ p {
 .header-nav-item {
   box-sizing: border-box;
   min-width: 50px;
-  font-size: 12px;
   margin: 4px;
   padding: 4px;
   border-radius: 6px;
@@ -96,30 +96,41 @@ p {
   background-color: #bb33aa;
 }
 
-.hero-wrap {
+/* .hero-wrap {
   display: flex;
   flex-direction: row-reverse;
-}
+} */
 .hero {
   margin: 5px;
 }
 
 .hero-text {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
+  margin-bottom: 5px;
+}
+.hero-description {
+  padding: 5px 10px;
+  line-height: 1;
+  margin-bottom: 5px;
 }
 .sidebar {
   margin: 5px;
 }
 .sidebar-title {
-  font-size: 10px;
+  text-align: center;
+  font-size: 14px;
   line-height: 1;
   font-weight: 700;
-  margin-bottom: 2px;
+}
+.sidebar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sidebar-item {
-  margin-bottom: 2px;
+  margin: 5px;
 }
 
 .button {
@@ -128,7 +139,7 @@ p {
   padding: 2px 3px;
   font-family: inherit;
   font-weight: 700;
-  font-size: 9px;
+  font-size: 14px;
   line-height: 1;
   background-color: rgba(252, 157, 157, 0.5);
   cursor: pointer;
@@ -144,7 +155,6 @@ p {
 }
 .footer-text {
   margin: 5px;
-  font-size: 11px;
   line-height: 1;
 }
 .social-list {
