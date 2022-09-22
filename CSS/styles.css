@@ -168,6 +168,10 @@ p {
   height: 25px;
   border-radius: 50%;
 }
+.quiz-title {
+  text-align: center;
+}
+
 .quiz-section {
   display: flex;
   flex-wrap: wrap;
@@ -213,7 +217,8 @@ p {
   transform: perspective(600px) rotateY(0deg);
 }
 @media screen and (min-width: 480px) {
-  .hero-wrap {
+  .hero-wrap,
+  .quiz-wrap {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
