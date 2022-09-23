@@ -74,6 +74,7 @@ p {
 }
 .header-nav-item:hover,
 .header-nav-item:focus,
+.header-nav-item.current,
 .header-nav-item:hover .link {
   color: white;
 }
@@ -271,6 +272,16 @@ p {
 .outdoor-item-picture {
   max-width: 294px;
   margin-bottom: 5px;
+}
+/* Indoor page styles */
+.indoor-list {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 200px 200px;
+}
+.indoor-item {
+  width: 25vw;
 }
 
 /* Media */
