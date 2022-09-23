@@ -1,6 +1,7 @@
 body {
   font-family: "Comic Neue", sans-serif;
   font-size: 14px;
+  line-height: 1;
   margin: 0;
   width: 100vp;
 }
@@ -168,6 +169,8 @@ p {
   height: 25px;
   border-radius: 50%;
 }
+
+/* Quiz page styles */
 .quiz-title {
   text-align: center;
 }
@@ -216,6 +219,32 @@ p {
 .quiz-card:hover > .card-back {
   transform: perspective(600px) rotateY(0deg);
 }
+/* Outdoor page styles */
+.outdoor-subtitle {
+  text-align: center;
+}
+.outdoor-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.outdoor-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 294px;
+  margin-bottom: 10px;
+}
+.outdoor-item-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.outdoor-item-picture {
+  max-width: 294px;
+  margin-bottom: 5px;
+}
 @media screen and (min-width: 480px) {
   .hero-wrap,
   .quiz-wrap {
@@ -236,6 +265,7 @@ p {
     font-size: 16px;
   }
 }
+/* Media */
 @media screen and (min-width: 768px) {
   .hero {
     width: 60vw;
@@ -253,5 +283,19 @@ p {
   .social-item {
     width: 40px;
     height: 40px;
+  }
+  .outdoor-item {
+    flex-direction: row-reverse;
+    max-width: 60vw;
+  }
+  .outdoor-item.column {
+    flex-direction: column;
+  }
+  .outdoor-item-wrap {
+    width: 60%;
+    margin-right: 10px;
+  }
+  .outdoor-item-picture {
+    width: 40%;
   }
 }
