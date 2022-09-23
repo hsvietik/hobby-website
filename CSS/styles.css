@@ -28,6 +28,7 @@ p {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 30px;
   background: rgb(194, 237, 232);
 
   background: linear-gradient(
@@ -152,13 +153,21 @@ p {
   justify-content: center;
   align-items: center;
 }
+.contacts {
+  width: 60%;
+}
+.footer-form {
+  width: 40%;
+}
 .footer-text {
   margin: 5px;
   line-height: 1;
+  text-align: center;
 }
 .social-list {
   display: flex;
   justify-content: center;
+  margin-right: 5px;
 }
 .social-item {
   display: flex;
@@ -168,6 +177,24 @@ p {
   width: 25px;
   height: 25px;
   border-radius: 50%;
+}
+.button.form {
+  padding: 5px;
+  border: 1px solid rgba(194, 237, 232, 1);
+  background-color: rgba(194, 237, 232, 1);
+}
+.email-label {
+  margin-bottom: 5px;
+}
+.email-input {
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 3px;
+  padding: 5px;
+}
+.email-input:focus {
+  outline: none;
 }
 
 /* Quiz page styles */
@@ -245,6 +272,8 @@ p {
   max-width: 294px;
   margin-bottom: 5px;
 }
+
+/* Media */
 @media screen and (min-width: 480px) {
   .hero-wrap,
   .quiz-wrap {
@@ -264,8 +293,13 @@ p {
   .sidebar-title {
     font-size: 16px;
   }
+  .contacts {
+    width: 50%;
+  }
+  .email-input {
+    width: 60%;
+  }
 }
-/* Media */
 @media screen and (min-width: 768px) {
   .hero {
     width: 60vw;
@@ -297,5 +331,10 @@ p {
   }
   .outdoor-item-picture {
     width: 40%;
+  }
+  .contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
