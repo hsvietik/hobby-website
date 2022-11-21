@@ -3,7 +3,6 @@ body {
   font-size: 14px;
   line-height: 1;
   margin: 0;
-  width: 100vp;
 }
 h1,
 h2,
@@ -24,6 +23,10 @@ p {
 
 .background-container {
   max-width: 1200px;
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
